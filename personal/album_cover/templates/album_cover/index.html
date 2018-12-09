@@ -1,0 +1,43 @@
+
+<div class="wrapper">
+    <div class="text title">
+        {{ random_title }}
+    </div>
+    <div class="text quote">
+        {{ random_quote }}
+    </div>
+    <img class="album_cover" src="{{ random_photo }}" />
+</p>
+
+<style>
+    body {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    div.wrapper {
+        overflow: hidden;
+        width: 100vmin;
+        height: 100vmin;
+        position: relative;
+    }
+    img.album_cover{
+        height: 100vmin;
+    }
+    div.text {
+        width: 100vmin;
+        position: absolute;
+        color: #fff;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+    div.title {
+        left: 1%;
+        font-size: 5vmin;
+    }
+    div.quote {
+        text-align: right;
+        bottom: 0;
+        right: 1%;
+        font-size: 10vmin;
+    }
+</style>

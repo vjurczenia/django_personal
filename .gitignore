@@ -1,0 +1,6 @@
+*.pyc
+*~
+*.map
+db.sqlite3
+env
+.vscode
